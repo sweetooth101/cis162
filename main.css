@@ -3,6 +3,8 @@ html{
 }
 body{
     max-width:800px;
+    margin-left:auto;
+    margin-right: auto;
 }
 
 header{
@@ -13,6 +15,15 @@ header h1{
     font-family: "Times New Roman", Times, serif;
     
 }
+#header{
+    background-color: #90E2D2;
+    padding:3px;
+}
+nav{
+    background-color: #50CFB6 ;
+    padding:8px;
+}
+
 nav ul {
     list-style-type: none;
     margin:0;
@@ -20,12 +31,17 @@ nav ul {
     
     
 }
+
+nav li{
+    display:inline;
+    padding:5px;
+    
+}
 a:link{
     text-decoration: none;
 }
 
 section{
-    width:80%;
     background-color: #1abc9c;
     padding:20px;
     
@@ -36,3 +52,12 @@ footer{
     font-family: 'Courier New', Courier, monospace;
 }
 
+img{
+    width:50%;
+}
+
+#left{
+    clear:left;
+    float:left;
+    width:45%;
+}
